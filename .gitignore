@@ -4,6 +4,9 @@
 *.jar
 *.war
 *.ear
+*.zip
+*.tar.gz
+*.rar
 
 # Eclipse
 .project
@@ -23,20 +26,40 @@ Thumbs.db
 
 # Gradle
 .gradle
-!gradle-wrapper.jar
+gradle-app.setting
+gradle-app.properties
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+.gradletasknamecache
 
 # Maven
-target
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/
+!.mvn/wrapper/
+!.mvn/wrapper/maven-wrapper.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
 
 # Build
 out
-build
-bin
+build/
+bin/
 
 # Other
 .env
+.env.*
+application.properties
+application-*.properties
 *.log
 *.swp
 *.bak
-
+.vscode/
 
