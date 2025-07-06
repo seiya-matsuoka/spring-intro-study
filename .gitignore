@@ -28,8 +28,8 @@ Thumbs.db
 .gradle
 gradle-app.setting
 gradle-app.properties
-!gradle/wrapper/gradle-wrapper.jar
 !gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.jar
 .gradletasknamecache
 
 # Maven
