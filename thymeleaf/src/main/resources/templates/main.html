@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Thymeleaf Sample</title>
+</head>
+
+<body>
+	<h1 th:text="'hello world'">表示する部分</h1>
+	<h1>こんにちは [[${name}]]さん</h1>
+	<h1 th:text="'明日は、' + '晴れ' + 'です。'">表示する部分</h1>
+</body>
+
+</html>
