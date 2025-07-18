@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{layout ::base(~{::title}, ~{::body})}">
 
 <head>
 	<meta charset="UTF-8">
@@ -112,6 +112,13 @@
 	    空文字判定:<span th:text="${#strings.isEmpty(str1)}"></span><br>
 	    長さ:<span th:text="${#strings.length(str1)}"></span>
 	</div>
+
+	<hr>
+
+	<div id="one" th:insert="~{common :: header}"></div>
+	<h1>fragmentを埋め込む</h1>
+	<div id="two" th:replace="~{common :: footer}"></div>
+
 </body>
 
 </html>
